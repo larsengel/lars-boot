@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // needed for accessing classes with specific annotations (e.g. find all request handlers to set server context)
+    compile group: 'org.reflections', name: 'reflections', version: '0.9.11'
+}

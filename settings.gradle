@@ -1,0 +1,4 @@
+rootProject.name = 'lars-framework'
+include 'app'
+include 'lars-boot'
+
