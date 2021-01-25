@@ -1,0 +1,9 @@
+build/
+.gradle
+
+!gradle/wrapper/gradle-wrapper.jar
+.gradletasknamecache
+.idea
+*.iws
+*.iml
+*.ipr
